@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+body{
+    background-image: url(contoh.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin: auto;
+    width: 400px;
+    background-color: blur(10px) transparent;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    border: 3px solid #fff;
+    backdrop-filter: blur(5px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+h1{
+    -webkit-text-stroke: 1px #000;
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 50px;
+    align-content: center;
+    padding: 0px 100px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+}
+
+h4{
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+.pelajaran{
+    margin-left: 70px;
+}
+
+.no{
+    margin-left: 5px;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+button {
+    margin-top: 50px;
+    padding: 7px 20px;
+    border-radius: 15px;
+    background-color: rgb(244, 43, 43);
+    border: none;
+    color: white;
+    
+
+}
+
+.btn2 {
+    margin-top: 50px;
+    padding: 7px 20px;
+    border-radius: 15px;
+    background-color: rgb(86, 193, 113);
+    border: none;
+    color: white;
+    margin-left: 200px;
+
+}
+
+.daftar-list{
+    margin-top: 20px;
+}
+
+.siswa-item{
+    border : 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 40px;
+    color: #fff;
+    align-items: flex-start;
+    background-color: #C69774;
+}
+
+.editbtn{
+    border-radius: 15px;
+    background-color: #000;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    height: 30px;
+    width: 20%;
+    padding-right: 45px;
+}
+
+.hapusbtn{
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    height: 30px;
+    width: 20%;
+    margin-left: 10px;
+    padding-right: 55px;
+
+}
+
+.tombol{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search{
+    margin-top: 20px;
+}
+
+.cari{
+    background-color: #5FBDFF;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+

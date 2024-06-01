@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pendaftaran.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="form">
+            <div class="jdlpendaftaran">
+                <h1 id="judul">Pendaftaran Les Jenjang SMP</h1>
+            </div>
+            <div class="nama">
+                <h4>Nama :</h4>  
+                <input type="text" id="nama"> 
+            </div>
+            <div class="kelas">
+                <h4>Kelas :</h4>
+                <select id="kelas">
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="mapel">
+                <h4 class="pelajaran">Mata Pelajaran :</h4>
+                <select id="mapel">
+                    <option value="Matematika">Matematika</option>
+                    <option value="Bahasa Inggris">Bahasa Inggris</option>
+                    <option value="IPA">IPA</option>
+                </select>              
+            </div>
+            <div class="nomor">
+                <h4 class="no">No.HP :</h4>
+                <input type="number" id="nomor">
+            </div>
+            <div class="submit">
+                <button id="btn1" class="btn1" onclick="bersihkanForm()">Batal</button>
+                <button id="btn2" class="btn2" onclick="tambahSiswa()">Daftar</button>
+            </div>
+
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Cari siswa...">
+                <button onclick="searchInput()" id="cari" class="cari"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <!-- Daftar Siswa -->
+            <div class="daftar-list" id="daftar-list">
+                
+            </div>  
+        </div>
+    </main>
+    
+    <script src="scripttugas.js"></script>
+
+    
+</body>
+</html>
